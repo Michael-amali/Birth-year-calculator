@@ -43,10 +43,8 @@ function displayYearsBetweenDates(){
 
 
     var date1, date2;  
-    //define two date object variables with dates inside it  
-    date1 = new Date("07/15/2015");
+    
     date1 = new Date(date1month+"/"+date1day+"/"+date1year);  
-    date2 = new Date("11/28/2016");  
     date2 = new Date(date2month+"/"+date2day+"/"+date2year);  
 
     //calculate time difference  
