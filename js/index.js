@@ -52,13 +52,6 @@ function displayYearsBetweenDates(){
 
     //calculate days difference by dividing total milliseconds in a day  
     var days_difference = time_difference / (1000 * 60 * 60 * 24);  
-      
-    // document.write("Number of days between dates <br>" +   
-    //                 date1 + " and <br>" + date2 + " are: <br>"   
-    //                 + days_difference + " days");  
-
-    // const date = new Date().getFullYear();
-    // const userAge = date - ageValue;
 
     paraText_1.innerHTML = `Number of years between the two dates is<br>   
     ${Math.round(days_difference/365)} years`;
